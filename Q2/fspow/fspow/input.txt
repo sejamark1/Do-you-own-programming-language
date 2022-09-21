@@ -1,0 +1,5 @@
+fc = FileCollection("H:\antlr\fspow\wombats") 
+sel = Selector(top(10, fspBiggest)) 
+topBiggest = fc.apply(sel) 
+sel = Selector(top(20, fspOldest)) 
+topOldest = fc.apply(sel) 
